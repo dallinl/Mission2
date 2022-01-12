@@ -1,0 +1,21 @@
+﻿body {
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic';
+    font-size: 36px;
+}
+
+h2 {
+    color: dimgrey;
+}
+
+h3 {
+    color: grey;
+}
+
+label {
+    width: 250px;
+    display:inline-block;
+}
