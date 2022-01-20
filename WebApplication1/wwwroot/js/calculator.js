@@ -34,7 +34,7 @@ $("#btnSend").click(function () {
     } else if (numeric_grade >= 60) {
         letter_grade = "D-";
     } else {
-        letter_Grade = "I";
+        letter_grade = "I";
     }
 
     // Alert to print out 

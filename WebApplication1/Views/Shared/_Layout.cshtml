@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <!--Give it a fun name-->
+    <title>@ViewData["Title"]</title>
+    <!-- Insert Favicon -->
+    <link runat="server" rel="shortcut icon" href="~/img/favicon (1).ico" type="image/x-icon" />
+    <link runat="server" rel="icon" href="~/img/favicon (1).ico" type="image/ico" />
+    <!--Link to CSS-->
+    <link href="~/css/default.css" rel="stylesheet" />
+    <link href="~/lib/boostrap/css/bootstrap.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav>
+        <a asp-controller="Page" asp-action="Index"> Home</a>
+        <a asp-controller="Page" asp-action="GradeCalc"> Grade Calculator</a>
+    </nav>
+
+    <div>
+        <script src="~/lib/boostrap/js/bootstrap.js"></script>
+        <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+        <script src="~/js/calculator.js"></script>
+        @RenderBody()
+    </div>
+
+    @*Boostrap and JQuery*@
+    
+
+
+
+</body>
+
+</html>
